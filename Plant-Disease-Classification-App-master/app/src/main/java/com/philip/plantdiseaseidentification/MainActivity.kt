@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private val mInputSize = 224
     private val mModelPath = "model.tflite"
     private val mLabelPath = "labels.txt"
-    private val mSamplePath = "tomatohealthy.jpg"
+    private val mSamplePath = "cassavahealthy.jpg"
 
 
     @RequiresApi(Build.VERSION_CODES.O)
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         dbRef = FirebaseDatabase.getInstance().getReference("CassavaPlantDiseases")
 
-        mClassifier = Classifier(asset.s, mModelPath, mLabelPath, mInputSize)
+        mClassifier = Classifier(assets, mModelPath, mLabelPath, mInputSize)
 
         resources.assets.open(mSamplePath).use {
             mBitmap = BitmapFactory.decodeStream(it)
