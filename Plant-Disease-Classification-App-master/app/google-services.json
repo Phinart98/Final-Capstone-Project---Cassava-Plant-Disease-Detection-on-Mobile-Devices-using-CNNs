@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "38506979076",
+    "project_id": "cassavadiseasedetection",
+    "storage_bucket": "cassavadiseasedetection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38506979076:android:50ef97dceed51697d17a51",
+        "android_client_info": {
+          "package_name": "com.kazim.plantdiseaseidentification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38506979076-lfeshjmghpdlbaqlpvlvnutktam855k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kazim.plantdiseaseidentification",
+            "certificate_hash": "3054d1f58c24835055010854aa3472a042431976"
+          }
+        },
+        {
+          "client_id": "38506979076-ubsds1o1at3gk0aa06gldshtdiplqumi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADWDzgeGYX1Lo7nrLQMI8EHlNzFhZ8WcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38506979076-ubsds1o1at3gk0aa06gldshtdiplqumi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
